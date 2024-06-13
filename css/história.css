@@ -1,0 +1,34 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.historia {
+    background-image: url(../Imagens/historiafundo.gif);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+}
+
+.historia::after {
+    content: '';
+    width: inherit;
+    height: inherit;
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 1%, rgba(10, 12, 16, 0.7) 40%, rgba(10, 12, 16, 0.99) 98%);
+}
+
+.titulo h1 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 80px;
+    margin-left: 200px;
+}
+
+.titulo p {
+    color: white;
+    float: left;
+}

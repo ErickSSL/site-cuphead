@@ -1,0 +1,459 @@
+@import url(../css/história.css);
+@import url(../css/boses.css);
+@import url(../css/itens.css);
+@import url(../css/dlc.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Catamaran;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+:root {
+    --color-01: #06C;
+    --color-02: #000;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.titulo-secao {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+   
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+#cabecalho {
+    background-color: var(--color-02);
+    margin-bottom: 40px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+}
+
+#cabecalho #logo {
+    width: 40px;
+    margin-left: -25%;
+}
+#cabecalho #logo2 {
+    width: 50px;
+    margin-left: -23%;
+}
+
+#cabecalho #menu ul {
+    display: flex;
+}
+
+#cabecalho .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+;
+}
+
+#cabecalho #menu a {
+    color: #FFF;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    transition: all 0.3s linear;
+    margin-right: 60px;
+
+}
+
+#cabecalho #menu a:hover {
+    background-color: var(--color-01);
+}
+
+#cabecalho #menu li {
+    list-style: none;
+}
+
+#cabecalho #menu li .submenu {
+    display: none;
+    position: absolute;
+    background-color: var(--color-02);
+}
+
+#cabecalho #menu li:hover .submenu {
+    display: block;
+}
+/* primeira parte */
+.jogo {
+    
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 2px solid;
+}
+.jogo img {
+    margin-top: -266px;
+    width: 400px;
+    float: left;
+    margin-right: -100px;
+}
+.titulo  {
+    font-size: 50px; 
+    margin-bottom: 300px;
+    margin-left: 370px;
+}
+
+.jogo p {
+    
+    width: 440px;
+     height: 200px;
+    font-size: 18px;
+    float:right;
+    margin-top: -200px;
+    margin-left: -100px;
+    
+}
+
+.subtitulo {
+    font-size: 30px;
+    float: right;
+    margin-top: -250px;
+    margin-right: 190px;
+}
+/* primeira parte */
+
+/* Estilo e animação */
+.estilo {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 2px solid;
+}
+.subtitulo2 {
+    font-size: 30px;
+    margin-left: 300px;
+}
+
+.animacao1 {
+    width: 400px;
+    float: left;
+}
+
+.animacao2 {
+    width: 400px;
+    float: right;
+}
+
+.estilo .p1{
+    margin-top: 250px;
+    font-weight: bolder;
+}
+
+.estilo .p2{
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.estilo .p3 {
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+/* Estilo e animação */
+
+
+/* Jogabilidade  */
+.jogabilidade {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 2px solid;
+}
+
+.jogabilidade h2 {
+    font-size: 30px;
+    margin-left: 400px;
+}
+
+.jogabilidade1 {
+    float: left;
+    width: 400px;
+}
+
+.jogabilidade2 {
+    float: right;
+    width: 400px;
+}
+
+.p1 {
+    margin-top: 250px;
+    font-weight: bolder;
+}
+
+.p2 {
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.p3 {
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+/* jogabilidade */
+
+/* animação */
+
+.desenho {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 2px solid;
+}
+
+.desenho h2 {
+    font-size: 30px;
+    margin-left: 420px;
+}
+
+.netflix1 {
+    width: 400px;
+    float: left;
+}
+
+.netflix2 {
+    width: 400px;
+    float: right;
+}
+
+.desenho .p1 {
+    margin-top: 250px;
+}
+
+/* animação */
+
+/* critica */
+.critica {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 2px solid;
+}
+
+.critica h2 {
+    font-size: 30px;
+    margin-left: 420px;
+}
+
+.premio {
+    width: 600px;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.critica .p1 {
+ font-weight: bolder;
+margin-top: 15px;
+}
+
+/* critica */
+
+
+/* pagina da música */
+.div-video {
+   margin-left: -380px;
+}
+
+.div-video2 {
+    margin-top: -319px;
+    margin-left: 220px;
+}
+
+.div-video3 {
+    margin-top: -319px;
+    margin-left: 830px;
+}
+
+.div-video4 {
+    margin-left: -380px;
+    margin-top: 40px;
+}
+
+.div-video5 {
+    margin-left: 220px;
+    margin-top: -319px;
+}
+
+.div-video6 {
+    margin: -319px;
+    margin-left: 830px;
+}
+
+.div-video7 {
+    margin-left: -380px;
+    margin-top: 360px;
+}
+
+.div-video8 {
+    margin-top: -319px;
+    margin-left: 220px;
+}
+
+.div-video9 {
+    margin-top: -319px;
+    margin-left: 830px;
+}
+
+/* música */
+
+/* Loja do torresmo */
+
+.inicio h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 90px;
+    margin-top: 300px;
+    margin-left: 800px;
+    font-style: italic;
+    color: white;
+}
+
+.inicio h2 {
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 40px;
+ text-align: center;
+ color: white;
+}
+
+.inicio p {
+    color: white;
+    margin-top: 200px;
+    margin-left: 600px;
+  font-size: 30px;
+  font-weight:bolder
+}
+
+.img1 {
+    width: 270px;
+    margin-top: 30px;
+    margin-left: 600px;
+}
+
+.img2 {
+    width: 280px;
+    margin-top: -260px;
+    margin-left: 960px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.armasecharms h1{
+margin-top: 300px;
+margin-left: 570px;
+font-size: 50px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: italic;
+color: white;
+}
+
+
+.armas h2{
+    margin-top: 200px;
+    margin-left: 290px;
+    font-size: 60px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.imagemarma {
+    width: 200px;
+    margin-top: 17px;
+    margin-left: 273px;
+}
+
+
+.charms h2 {
+    color: white;
+    margin-top: -290px;
+    margin-left: 850px;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+.imagecharms {
+    width: 200px;
+    margin-top: 17px;
+    margin-left: 845px;
+}
+
+.superart h2{
+    color: white;
+    font-size: 60px;
+    margin-top:-290px;
+    margin-left: 1400px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imagesuper {
+    width: 200px;
+    margin-top: 17px;
+    margin-left: 1426px;
+}
+
+.todasasarmas h1 {
+    font-size: 60px;
+    color: white;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.todaselas {
+    margin-left: 50px;
+}
+
+.todasascharms h1 {
+    font-size: 60px;
+    color: white;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 1200px;
+    margin-top: -460px;
+}
+.charmsdele {
+    margin-left: 1200px;
+}
+
+.ponto1 {
+    width: 10000px;
+}
+
+.ponto6{
+    width: 10000px;
+}
+
+.ponto7 {
+    width: 10000px;
+}
+

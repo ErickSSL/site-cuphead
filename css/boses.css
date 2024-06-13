@@ -1,0 +1,77 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.boses {
+    
+    background-image: url(../Imagens/boses.gif);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+}
+
+.boses::after {
+    content: '';
+    width: inherit;
+    height: inherit;
+    position: fixed;
+    inset: 0;
+    background: linear-gradient( rgba(10, 12, 16, 0.99) 1, rgba(10, 12, 16, 0.7) 1, rgba(10, 12, 16, 0.99) 1);
+}
+
+.boses h1 {
+    color: white;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    margin-left: 700px;
+}
+
+.bosesdomundo {
+    margin-left: 280px;
+}
+
+
+.boses2 h1 {
+    color: white;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    margin-left: 700px;
+}
+
+.bosesdomundo2 {
+    margin-left: 280px;
+}
+
+.boses3 h1 {
+    color: white;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    margin-left: 700px;
+}
+
+.bosesdomundo3 {
+    margin-left: 280px;
+}
+
+.bosesfinais h1 {
+    color: white;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    margin-left: 700px;
+}
+
+.dado {
+    width: 700px;
+}
+
+.diabo { 
+    width: 700px;
+    margin-left: 900px;
+    margin-top: -397px;
+}
